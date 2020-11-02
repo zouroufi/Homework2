@@ -52,7 +52,7 @@ public class QueryServlet extends HttpServlet {
          out.println("<p>Check Tomcat console for details.</p>");
          ex.printStackTrace();
       }  // Step 5: Close conn and stmt - Done automatically by try-with-resources (JDK 7)
-	  out.println("<a href=" +"ProductEntry.jsp" +">Return Back</a>");
+	  out.println("<a href=" +"index.html" +">Return Back</a>");
       out.println("</body></html>");
       out.close();
    }

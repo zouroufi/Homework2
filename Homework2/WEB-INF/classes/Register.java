@@ -1,3 +1,5 @@
+
+
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -44,7 +46,7 @@ public class Register extends HttpServlet {
 		String result = rClass.insert(product);
 		//response.getWriter().print(result);
 		response.getWriter().append("<html><body>").append(result)
-			.append("<br><a href=" +"ProductEntry.jsp" +">Return Back</a>").append("</body></html>");
+			.append("<br><a href=" +"index.html" +">Return Back</a>").append("</body></html>");
 	}
 
 }
