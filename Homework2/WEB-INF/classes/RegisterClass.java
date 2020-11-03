@@ -50,7 +50,7 @@ public class RegisterClass {
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			return "Data not entered, Check that you filled all the blanks or you didn't insert the same barcode with another product.";
+			return "Data not entered! Please check that you didn't insert the same barcode with another product.";
 		}
 		return result+ "<br><br>" + "Your Product data are:<br>" + "Barcode: " +product.getBarcode() + "<br>Name: " 
 		+ product.getName() + "<br>Color: " + product.getColor() + "<br>Description: " + product.getDescription();
